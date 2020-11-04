@@ -1,0 +1,102 @@
+dans votre WAMP / MAMP  / XAMPP 
+=> votre serveur local vous pouvez stocker plusieurs
+projets wordpress SIMULTANEMENT
+
+=> dans un 1 wordpress = 1 seul projet
+
+-------
+
+3 jours ensemble => installer 2 nouveaux projets dans votre 
+serveur local 
+
+=> projets complètement autonomes les uns des autres 
+
+------- 
+
+démarrer votre serveur local
+WAMP / MAMP  / XAMPP
+
+------- 
+
+aller dans le dossier racine de votre serveur local
+
+XAMPP => c:\xampp\htdocs
+
+créer un dossier jour1
+
+-------
+
+sur le site officiel => wordpress.org
+https://wordpress.org/download/
+
+=> télécharger la dernière version disponible et stable de
+
+-------
+
+base de données 
+
+=> phpmyadmin => localhost/phpmyadmin/
+
+=> créer une base de données jour1
+
+=> créer un compte utilisateur 
+login : jour1
+mdp  : Azerty1234!
+
+-------
+
+Installer wordpress 
+
+http://localhost/jour1
+
+--------
+
+compte Admin de mon projet wordpress
+
+login : admin
+mdp : Azerty1234!
+
+--------
+
+=> installation d'un nouveau site wordpress sur mon serveur 
+local 
+prendre entre 5 et 10 min 
+
+
+-----
+
+Attention dans une base de données
+
+profils utilisateurs
+
+par défaut compte root => compte administrateur de la base de données 
+=> Droits spéciaux  => accéder à toutes les bases de données
+
+=> il ne faut pas l'utiliser sur un site 
+=> ce compte dédié à une personne physique 
+DBA Data Base Administrateur 
+
+=> créer un site internet => un base données + un compte dédié 
+
+1 compte à accès à un seul site 
+
+=> SECURITE 
+
+
+-----------
+
+dès que je crée un compte gestionnaire dans wordpress
+IMPOSSIBLE d'avoir deux comptes qui ont la même boite mail !
+
+-----------
+
+=> approfondissement
+
+-----------
+
+=> thème => l'apparence visuelle du front office 
+
+=> créer notre premier thème graphique sur wordpress 
+
+
+

@@ -1,0 +1,171 @@
+aller dans le dossier 
+
+dans votre serveur local 
+
+wp-content => themes 
+=> vous allez créer le dossier starter
+
+dans le dossier starter créer 3 fichiers
+
+=> index.php
+=> functions.php 
+=> style.css
+bien respecter le nommage des fichiers !!! 
+
+
+
+----------------------------
+
+Cas pratique :
+dans votre projet wordpress actuel veuillez créer un nouveau thème 
+
+=> jour1 
+
+=> 5 min pour créer le nouveau thème 
+
+dans le dossier wp-content/themes
+=> créer le dossier jour1 (nom du thème)
+=> dans ce dossier 
+=> créer 3 fichiers index.php / functions.php / style.css
+il FAUT respecter leur nommage
+
+=> remplir le fichier style.css un commentaire 
+=> ce commentaire commence TOUJOURS le fichier 
+/*
+  Theme Name: jour1
+  Author: Malik H
+  Description: petit cas pratique créer une thème vierge
+  Version: 1.0
+  Text Domain: jour1 // traduction 
+*/
+
+Important de mettre le nom du thème devant 
+Theme Name: 
+
+en + des 3 fichiers que l'on vient de créer 
+on peut ajouter un 4ème fichier 
+=> fichier facultatif screenshot.png
+
+=> bien respecter le nom du fichier 
+=> fichier image 
+
+imprim écran 
+
+
+-------------------------------
+
+Maintenant => Activer le thème starter 
+
+un fois que vous avez activer le thème starter
+
+=> aller sur le front office de votre projet wordpress
+
+=> page blanche 
+
+-------------------------------
+
+=> de remplir cette page blanche !! 
+
+Attention => ça n'a pas effacé tout le texte que vous 
+avez créer / image ... 
+
+=> remplir nos pages de html 
+
+=> remplir le fichier index.php 
+
+
+-------------------------------
+
+dans le back office
+
+=> activer le 2ème thème que l'on a créé 
+=> jour1
+=> ajouter dans le fichier index.php 
+=> barre de raccourcis
+<?php wp_head ?> et <?php wp_footer ?>
+
+=> installer bootstrap 
+
+=> ajouter dans la page index.php une barre de menu bootstrap
+
+le nom du site <?php echo get_option('blogname') ?>
+
+deux liens => 
+accueil  <?php echo get_option('home') ?>
+présentation  <?php echo get_page_link(num_page) ?>
+
+------------------
+
+1 activer le thème jour1
+Back office > apparence >thème > activer le thème jour1
+
+2 ouvrir le fichier index.php qui est stocké d
+dans le dossier jour1 
+
+
+------------------
+
+=> 7 fonctions de wordpress => permettre 
+de récupérer automatiquement des informations
+qui sont stockées dans le back office 
+
+=> très important 
+=> le nom de fichier 
+
+dans dossier de thème 
+index.php => encharge de la page d'accueil du site
+page.php => en charge de l'affichage de toutes les pages
+qui sont réalisées dans le back office 
+et qui ont été créé dans la section page 
+
+post.php => gérer l'affichage de toutes les pages 
+qui sont créées dans le back office de la section
+article 
+
+dans le dossier jour1 => nouveau fichier 
+post.php 
+
+
+-------------------------------
+
+1 activer le thème starter
+
+2 déjà la page page.php 
+=> la boucle wordpress 
+while(){ }
+
+3 => créer la page single.php 
+reprendre tout le contenu de la page avec la boucle wordpress et la boucle 
+while(){ }
+
+4 => pour les pages index.php / page.php / single.php 
+
+dans la barre de menu => un nouveau lien
+qui pointe vers une page d'article
+<?php echo get_page_link( num_article ) ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+https://github.com/webdevproformation/wp-oct-2020
+
+alloul.fahim@gmail.com
+m_hayet@yahoo.com
+
+
+
+----------------------------
+
+
+Cas pratique pour demain :
+
+créer un nouveau projet wordpress
+
+front
+url : http://localhost/jour2
+
+la base de données
+
+nom : jour2
+user : jour2
+login : jour2
+host : localhost
+prefix de table : jour2_
+
+compte administrateur
+
+login : jour2
+mdp : azerty1234
+
+
+https://formation.webdevpro.net/wordpress-dev
+login : wp
+mdp : dev

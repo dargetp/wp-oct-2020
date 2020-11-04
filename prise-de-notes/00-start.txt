@@ -1,0 +1,95 @@
+Bonjour tout le monde !
+
+J'espère que vous allez bien !!!
+
+---------------------
+
+wordpress => développement thème / plugin
+
+---------------------
+
+support en ligne : 
+
+https://formation.webdevpro.net/wordpress-dev/
+login : wp
+mdp : dev
+
+=> sur le tchat zoom => liens vers le support de cours 
+
+---------------------
+
+Etes vous bien connecté ? 
+
+---------------------
+
+sur le bureau de votre ordinateur => créer un dossier wp-dev 
+
+dans ce dossier créer un sous dossier jour1 
+
+dans ce dossier je vais stocker mes prises de notes 
+
+---------------------
+
+=> hier et avant hier avec le prof présenté wordpress et comment il fonctionne ?
+
+=> Est ce que tout le monde sait installer wordpress en local ???
+
+---------------------
+
+Wordpress 
+à l'origine => blog = web log => journal de bord que l'on met sur internet
+écrire ses humeurs 
+
+=> Wordpress a grandi (très utilisé) => CMS
+
+Content Management System (CMS) <=> Système de Gestion de Contenu (SGC)
+
+site internet => découpée en 2 parties 
+Front Office => partie visible par les internautes 
+lire vos articles / voir les images ...
+
+Back Office  => partie dédiée uniquement pour les gestionnaires du site
+uniquement accessible si on a un login et mot de passe correct 
+dans cette partie on va gérer tout ce qui va être visible dans le Front Office
+
+rôle => dans le backoffice niveau de droit
+Administrateur => gestionnaire qui a tous les droits sur le site
+Rédacteur / traducteur / editeur 
+Eux aussi ce sont des gestionnaires mais qui ont moins de droits 
+= qui ont accès à moins de menu dans le back office
+
+--------
+
+CMS OpenSource et Freemium
+
+=> OpenSource => accès à l'ensemble des fichiers sources pour pouvoir modifier et le site COMME vous voulez
+
+=> Freemium : payant => 
+Free Premium => au delà de wordpress tous les services qui vont autours
+peuvent être payant
+
+
+------------------
+
+aujourd'hui => 40% des sites sur internet utilisent Wordpress pour fonctionner 
+
+------------------
+
+site officiel 
+
+=> https://wordpress.org/ en anglais
+=> https://fr.wordpress.org/support/ en français
+
+
+https://fr.wordpress.com/ => wix pour wordpress 
+
+connecter au site => créer une site itnernet hébergé chez wordpress mais en ligne
+
+=> par défaut vous devez payer pour avoir votre domaine :  projet.wordpress.com
+
+=> pas possible d'installer des thèmes et plugins 
+=> version payant
+
+=> Freemium 
+
+

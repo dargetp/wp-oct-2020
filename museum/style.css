@@ -1,0 +1,24 @@
+/*
+  Theme Name: museum
+  Author: Malik H
+  Description: réaliser d'une thème pour site internet de musée
+  Version: 1.0
+  Text Domain: museum
+*/
+
+.big{
+    font-size: 75px;
+}
+.btn-search{
+    width: 180px !important;
+}
+
+iframe{
+    width: 100% !important;
+    height: 250px !important ;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}

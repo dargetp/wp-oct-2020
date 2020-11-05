@@ -1,0 +1,201 @@
+support :
+https://formation.webdevpro.net/wordpress-dev/
+login : wp
+mdp : dev 
+
+-----------------
+
+https://github.com/webdevproformation/wp-oct-2020
+
+-----------------
+-----------------
+
+deuxième jour 
+
+WP => CMS très populaire 
+
+site internet de tout genre : blog / site vitrine / ecommerce / application 
+
+
+-----------------
+-----------------
+
+l'aspect du front office 
+
+=> wp-content/themes/nom-theme
+
+ATTENTION aux noms des fichiers => ne pas mettre majuscule 
+Respecter à la lettre les nommages des fichiers 
+
+index.php => accueil
+page.php => toutes les pages du site
+single.php => tous les articles 
+header.php => entête du site (<head> + menu)
+footer.php => pied de page 
+
+functions.php => contenir des fonctions centrales du thème
+	=> le fait d'activier les images mises en avant dans les articles et pages
+
+style.css => contenir des commentaires permet d'activer le thème dans le back office
+de Wordpress
+
+-------------------
+
+fonctions en PHP qui sont utilisables que dans Wordpress =>  <?php ?>
+ce sont des fonctions de Wordpress, vous ne pouvez pas les utiliser ailleurs 
+
+wp_head()
+wp_footer() => ajouter la barre des raccourcis dans le front 
+
+récupérer des informations qui sont stockées dans le back office dans 
+Réglages > Général
+
+get_option('home') => url de la page d'accueil du site
+get_option('blogname') => nom du site
+
+get_page_link("numero") => générer l'url ( permalien ) d'une page / d'un article
+
+get_header(); require => le fichier header.php
+get_footer(); require => le fichier footer.php
+
+-----------------
+
+boucle => loop (en anglais)
+en fonction du permalien appelé , Wordpress va Automatiquement faire une requête en base de données 
+récupérer les valeurs pour les afficher dans les pages 
+
+while( have_posts() ){
+     the_post();
+
+	the_title() => le titre article / page
+	the_content()  => le contenu de l'article
+	the_excerpt() => champ de synthèse
+	the_post_thumbnail("taille", ["class" => "toto tata"]) => image mis en 
+					avant de la page / article
+}
+
+les images mises en avant ne sont pas automatiquement ajoutés dans tous les sites
+
+fonction qui est écrite dans le fichier functions.php 
+
+--------------------
+
+function jour1_support(){
+   // qui est en charge d'ajouter les images mis en avant 
+    add_theme_support( 'post-thumbnails' );
+}
+
+add_action( 'after_setup_theme', 'jour1_support' );
+=> Hook = crochet 
+
+--------------------
+--------------------
+
+CMS // Framework // librairie => bien respecter les nouvelles règles imposées
+par votre nouveau cadre de travail 
+
+<h1>
+<p class="toto">
+
+.toto
+
+bootstrap 
+
+<div class="col-4">
+
+--------------------
+--------------------
+
+Cas pratique :
+
+dans votre nouveau site wordpress => jour2 
+créer le thème => museum 
+contenir pour l'instant 1 page => page d'accueil 
+
+Quand on va sur le front office => vous allez voir 2 choses :
+barre des raccourcis (en haut)
+<h1>Bienvenu au musée !</h1>
+
+=> une fois que vous avez lancé l'installation de wordpress 
+=> ne pas changer le nom de la base de donnnées
+=> ne pas changer le nom du dossier qui contient votre code source 
+
+=> dans wp-content/themes
+=> museum
+	index.php
+	style.css
+	functions.php
+	screenshot.png
+	
+	https://via.placeholder.com/1200x900?text=museum
+
+	ajouter des commentaires dans le fichier style.css
+
+/*
+  Theme Name: museum
+  Author: Malik H
+  Description: réaliser d'une thème pour site internet de musée
+  Version: 1.0
+  Text Domain: museum
+*/
+ne pas mettre un saut de ligne AVANT les commentaires dans le fichier style.css
+
+=> backoffice => apparence 
+
+
+=> front office => page blanche => ce n'est pas un site vide 
+=> le fichier en charge de l'affichage (index.php) est vide 
+
+structure de page html !
+
+--------------------------
+
+style => utiliser bootstrap (réduire la quantité de css à créer)
+en plus ajouter nos propres règles css => style.css 
+
+google => bootstrap => link => appeler le css bootstrap
+
+
+--------------------------
+
+équivalent de get_header() // get_footer()
+permet require => charger une page php 
+get_template_part()
+
+
+--------------------------
+
+cas pratique 
+
+1 créer dans le back office => une page 
+titre présentation
+contenu => 4 paragraphes de lorem ipsum
+mettre une image entre le 1er et le 2ème paragraphe
+
+2 dans la barre de menu => pointer vers la page présentation
+que vous venez de créer 
+
+2' créer les fichiers header.php et footer.php 
+
+3 créer le fichier page.php
+
+titre
+contenu 
+
+=> 12h19
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
